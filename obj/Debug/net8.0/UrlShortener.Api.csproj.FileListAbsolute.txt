@@ -175,3 +175,4 @@ E:\UrlShortener\UrlShortener\UrlShortener.Api\obj\Debug\net8.0\refint\UrlShorten
 E:\UrlShortener\UrlShortener\UrlShortener.Api\obj\Debug\net8.0\UrlShortener.Api.pdb
 E:\UrlShortener\UrlShortener\UrlShortener.Api\obj\Debug\net8.0\UrlShortener.Api.genruntimeconfig.cache
 E:\UrlShortener\UrlShortener\UrlShortener.Api\obj\Debug\net8.0\ref\UrlShortener.Api.dll
+E:\UrlShortener\UrlShortener\UrlShortener.Api\obj\Debug\net8.0\UrlShortener.Api.sourcelink.json
