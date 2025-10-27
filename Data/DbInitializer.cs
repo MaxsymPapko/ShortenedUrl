@@ -21,7 +21,7 @@ namespace UrlShortener.Api.Data
             if (adminUser == null)
             {
                 adminUser = new ApplicationUser { UserName = adminEmail, Email = adminEmail };
-                await userManager.CreateAsync(adminUser, "Admin123!"); // заміни пароль якщо потрібно
+                await userManager.CreateAsync(adminUser, "Admin123!"); 
                 await userManager.AddToRoleAsync(adminUser, adminRole);
             }
         }
