@@ -1,1 +1,76 @@
-[]
+[
+  {
+    "ContainingType": "UrlShortener.Api.Controllers.RedirectController",
+    "Method": "RedirectToOriginal",
+    "RelativePath": "{shortCode}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "shortCode",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UrlShortener.Api.Controllers.ShortUrlsController",
+    "Method": "GetAll",
+    "RelativePath": "api/ShortUrls",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UrlShortener.Api.Controllers.ShortUrlsController",
+    "Method": "Create",
+    "RelativePath": "api/ShortUrls",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "UrlShortener.Api.Controllers.CreateShortUrlDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UrlShortener.Api.Controllers.ShortUrlsController",
+    "Method": "Get",
+    "RelativePath": "api/ShortUrls/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UrlShortener.Api.Controllers.ShortUrlsController",
+    "Method": "Delete",
+    "RelativePath": "api/ShortUrls/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
