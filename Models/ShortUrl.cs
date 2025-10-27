@@ -12,7 +12,7 @@ namespace UrlShortener.Api.Models
 
         [Required]
         [MaxLength(100)]
-        public string ShortedUrl { get; set; } = null!;
+        public string ShortCode { get; set; } = null!;
 
         [Required]
         public string CreatedById { get; set; } = null!;
