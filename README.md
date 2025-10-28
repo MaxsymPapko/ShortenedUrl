@@ -15,11 +15,11 @@ It handles the creation of short URLs, stores user information, and provides a R
 3. Run the project with:
    dotnet run --project UrlShortener.Api
 
-##The API will be available at:
+## The API will be available at:
 
     https://localhost:7235
 
-##Main Endpoints
+## Main Endpoints
 
 GET /api/shorturls — get all short URLs
 
