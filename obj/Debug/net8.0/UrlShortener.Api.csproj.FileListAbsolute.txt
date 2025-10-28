@@ -168,7 +168,6 @@ E:\UrlShortener\UrlShortener\UrlShortener.Api\obj\Debug\net8.0\staticwebassets.b
 E:\UrlShortener\UrlShortener\UrlShortener.Api\obj\Debug\net8.0\staticwebassets.build.json.cache
 E:\UrlShortener\UrlShortener\UrlShortener.Api\obj\Debug\net8.0\staticwebassets.development.json
 E:\UrlShortener\UrlShortener\UrlShortener.Api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-E:\UrlShortener\UrlShortener\UrlShortener.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 E:\UrlShortener\UrlShortener\UrlShortener.Api\obj\Debug\net8.0\UrlShort.BEA7F242.Up2Date
 E:\UrlShortener\UrlShortener\UrlShortener.Api\obj\Debug\net8.0\UrlShortener.Api.dll
 E:\UrlShortener\UrlShortener\UrlShortener.Api\obj\Debug\net8.0\refint\UrlShortener.Api.dll

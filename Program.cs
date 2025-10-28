@@ -11,7 +11,19 @@ using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAngular",
+        policy => policy.WithOrigins("http://localhost:4200") // порт фронтенду
+                        .AllowAnyHeader()
+                        .AllowAnyMethod());
+});
+
+builder.Services.AddControllers();
+
+
+
+// add services to the container.
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -142,4 +154,5 @@ app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
 await DbInitializer.InitializeAsync(app.Services);
+app.UseCors("AllowAngular");
 app.Run();
