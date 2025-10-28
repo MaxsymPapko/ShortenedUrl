@@ -1,37 +1,28 @@
-URL Shortener API
+# URL Shortener API
 
-This is the backend part of the URL Shortener project, built with .NET 8 using ASP.NET Core Web API.
+This is the backend part of the **URL Shortener** project, built with **.NET 8** using **ASP.NET Core Web API**.  
 It handles the creation of short URLs, stores user information, and provides a REST API for the frontend.
 
-Technologies
+## Technologies
+  .NET 8 / ASP.NET Core Web API  
+  Entity Framework Core (SQL Server)  
+  Identity (users and authentication)  
+  xUnit (unit testing)  
 
-.NET 8 / ASP.NET Core Web API
+## Running the API
+1. Open the project in Visual Studio or JetBrains Rider.  
+2. Make sure the `appsettings.json` file contains the correct connection string to your database.  
+3. Run the project with:
+   dotnet run --project UrlShortener.Api
 
-Entity Framework Core (SQL Server)
+##The API will be available at:
 
-Identity (users and authentication)
+    https://localhost:7235
 
-xUnit (unit testing)
+##Main Endpoints
 
-Running the API
+GET /api/shorturls — get all short URLs
 
-Open the project in Visual Studio or JetBrains Rider.
-
-Make sure the appsettings.json file contains the correct connection string to your database.
-
-Run the project with:
-
-dotnet run --project UrlShortener.Api
-
-
-The API will be available at:
-
-https://localhost:7235
-
-Main Endpoints
-
-GET /api/shorturls — get all short URLs.
-
-POST /api/shorturls — create a new short URL.
+POST /api/shorturls — create a new short URL
 
 GET /api/shorturls/{shortCode} — get the original URL by short code
